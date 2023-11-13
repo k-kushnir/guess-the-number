@@ -1,4 +1,6 @@
 import logic
 
 if __name__ == "__main__":
-    logic.game_logic()
+    game = logic.NumberGuessingGame()
+    game.initialize_game()
+    game.run_game()
